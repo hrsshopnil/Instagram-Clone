@@ -63,7 +63,6 @@ class _LoginScreenState extends State<LoginScreen> {
                   print('buttonPress');
                 },
                 child: Container(
-                  child: Text('Log In'),
                   width: double.infinity,
                   alignment: Alignment.center,
                   padding: EdgeInsets.symmetric(vertical: 12),
@@ -73,6 +72,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     color: blueColor,
                   ),
+                  child: Text('Log In'),
                 ),
               ),
 
